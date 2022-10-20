@@ -50,8 +50,6 @@ public class verifyusercanlogin {
 	@Test
 	public void VerifyUserLogin() {
 		lp.enterEmailID();
-		
-		
 		lp.enterPassword();
 		lp.clickOnLoginBtn();
 		boolean isProfileNameVisible = hp.checkProfileNameVisible();
